@@ -1,12 +1,12 @@
 from pytube import YouTube
 import tempfile
 import os
-import sys
 
 
 
 #define a function to download audio from YouTube
 def download_audio(youtube_url, save_path=None):
+
     """
     Downloads audio from the given YouTube video URL.
 
@@ -46,6 +46,7 @@ def download_audio(youtube_url, save_path=None):
     except Exception as e:
         print(f"Error: {e}")
         return None
+
 
 
 if __name__ == "__main__":
